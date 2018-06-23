@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4 Starter Pack</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!--navabr-->
+  <nav class="navbar navbar-expand-md navbar-light py-4 fixed-top mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="img/mlogo.png" alt="" width="50px" height="50px">
+        <h3 class="d-inline align-middle">Boky</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="navbar-collapse collapse" id="navbarmenu">  
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#showcase" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#authors" class="nav-link">Meet Authors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+<!--show case-->
+<section id="showcase" class="py-5">
+  <div class="primary-overlay text-white">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+              <h2 class="display-2 mt-5 py-5">
+                so..what you dream of
+              </h2>
+              <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat atque obcaecati rerum itaque delectus natus, quaerat soluta dolorem laboriosam consequuntur!
+              </p> 
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                  <i class="fa fa-arrow-right"></i> read more
+              </a>
+          </div>
+    
+          <div class="col-lg-6 d-none d-lg-block">
+            <img src="img/book.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!--subscribe section-->
+<section id="subsribe" class="py-5">
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-block btn-primary">
+                  <i class="fa fa-envelope-open mr-3"></i>subsribe
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="box" class="py-5">  
+    <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="box-model p-3 mb-3">
+                  <h4>Be better</h4>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, id. Voluptatem aliquid deserunt perspiciatis aspernatur quaerat magnam unde quasi quae!</p>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+              <div class="box-model p-3 bg-primary text-white">
+                  <h4 >Be better</h4>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, id. Voluptatem aliquid deserunt perspiciatis aspernatur quaerat magnam unde quasi quae!</p>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+              <div class="box-model p-3">
+                  <h4>Be better</h4>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, id. Voluptatem aliquid deserunt perspiciatis aspernatur quaerat magnam unde quasi quae!</p>
+              </div>
+          </div>
+          <div class="col-md-3 mb-3">
+              <div class="box-model p-3 bg-primary text-white">
+                  <h4>Be better</h4>
+                  <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, id. Voluptatem aliquid deserunt perspiciatis aspernatur quaerat magnam unde quasi quae!</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!--About Section ----- -->
+<section id="about" class="py-5 text-center">    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                    <h2 class="mb-4">Why this Book</h2>
+                    <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus voluptates distinctio ea corrupti minima praesentium ratione optio accusantium consequatur.</p>
+                    <hr class="mt-5">
+                <!--The  Accordian -->
+                  <div class="row text-center">
+                      <div class="col-9 m-auto">
+                        <div id="accordion" class="mt-4">
+                          <div class="card">
+                            <div class="card-header" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <i class="fa fa-arrow-circle-down mr-2 show"></i>  Get inspired
+                                </button>
+                              </h5>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quos fugiat itaque, nobis nulla blanditiis quasi libero iste error aliquam porro voluptatibus nihil officiis beatae. Possimus hic non consequuntur expedita.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="headingTwo">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <i class="fa fa-arrow-circle-down mr-2 show"></i>  Grap the Knloledge
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="headingThree">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <i class="fa fa-arrow-circle-down mr-2 show"></i>  Satrt Here
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                              <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+            </div>
+    </div>
+</div>
+
+</section>
+
+<!--Authors Section ----- -->
+<section id="authors" class="py-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-4 mn-header-2">Meet The Authors</h2>
+        <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque possimus voluptates distinctio ea corrupti minima praesentium ratione optio accusantium consequatur.</p>
+        <hr class="mt-5 w-50">
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-3 col-md-6 mb-sm-2">
+          <div class="card">
+              <div class="card-body">
+                <img src="img/person1.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">
+                <h2>Name 1</h2>
+                <h5 class="text-muted">Description</h5>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem mollitia cupiditate sed ea doloremque temporibus.</p>
+                <div class="d-flex flex-row justify-content-center">
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-sm-2">
+          <div class="card">
+              <div class="card-body">
+                <img src="img/person2.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">
+                <h2>Name 1</h2>
+                <h5 class="text-muted">Description</h5>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem mollitia cupiditate sed ea doloremque temporibus.</p>
+                <div class="d-flex flex-row justify-content-center">
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-sm-2">
+          <div class="card">
+              <div class="card-body">
+                <img src="img/person3.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">
+                <h2>Name 1</h2>
+                <h5 class="text-muted">Description</h5>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem mollitia cupiditate sed ea doloremque temporibus.</p>
+                <div class="d-flex flex-row justify-content-center">
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-sm-2">
+          <div class="card">
+              <div class="card-body">
+                <img src="img/person4.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">
+                <h2>Name 1</h2>
+                <h5 class="text-muted">Description</h5>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem mollitia cupiditate sed ea doloremque temporibus.</p>
+                <div class="d-flex flex-row justify-content-center">
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                 </div>
+                 <div class="p-4">
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                 </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+<section id="contact" class="py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-9">
+              <h3>Get in touch  </h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, ipsam!</p>
+              <form>
+                  <div class="form-group">
+                    <div class="input-group input-group-lg mb-3">
+                 
+                          <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group input-group-lg mb-3">
+                        
+                          <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                     
+                        <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="input-group input-group-lg mb-3">
+                           <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+                        <textarea rows="5" class="form-control" placeholder="Message" aria-label="Username"    aria-describedby="basic-addon1">
+                         </textarea> 
+                    </div>
+                  </div>
+                  <input type="submit" value="submit" class="btn btn-primary btn-block">
+              </form>
+    
+          </div>
+          <div class="col-md-3 align-self-center">
+              <img src="img/mlogo.png" alt="logo" class="img-fluid ">
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer id="main-footer" class="py-3 text-center bg-primary text-white">
+  <p>All rights Resrveed &COPY; 2018</p>
+</footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+</body>
+</html>
